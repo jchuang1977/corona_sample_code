@@ -1,0 +1,57 @@
+settings =
+{
+        android = 
+        {
+        	versionCode = "1",
+        	versionName = "1.0"
+        },
+        
+        androidPermissions=
+        {
+        	"android.permission.INTERNET",
+                "android.permission.ACCESS_NETWORK_STATE",
+                "android.permission.READ_PHONE_STATE",
+        },
+        
+        
+        orientation =
+        {
+                default = "portrait",
+        },
+        
+        content=
+        {
+        	width = 320,
+        	height=480,
+        	scale="zoomStretch",
+        	imageSuffix = 
+        	{
+        		["@2x"]=1.8
+        	},
+        },
+
+        iphone = {
+                plist = {
+                        CFBundleLocalizations={
+                                "en",
+                                "zh-Hans",
+                                "zh-Hant",
+                        },
+                        CFBundleVersion ="1.0.0",
+                        CFBundleIconFile = "Icon.png",
+                        CFBundleIconFiles = {
+                                "Icon.png",
+                                "Icon@2x.png",
+                                "Icon-72.png",
+                                "Icon-72@2x.png",
+                                "Icon-Small.png",
+                                "Icon-Small@2x.png",
+                                "Icon-Small-50.png",
+                                "Icon-Small-50@2x.png",
+                        },
+                        UIPrerenderedIcon = false,
+                        UIStatusBarHidden = true,
+                        UIApplicationExitsOnSuspend = true,
+                },
+        }
+}

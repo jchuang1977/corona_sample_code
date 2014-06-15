@@ -1,0 +1,30 @@
+settings =
+{
+        android = 
+        {
+        	versionCode = "1",
+        	versionName = "1.0"
+        },
+        
+        androidPermissions=
+        {
+        		"androidPermission.INTERNET"
+        },
+        
+        
+        orientation =
+        {
+                default = "landscape",
+        },
+        
+        content=
+        {
+        	width = 320,
+        	height= 480,
+        	scale="zoomStretch",
+        	imageSuffix = 
+        	{
+        		["@2x"]=1.8
+        	},
+        },
+}

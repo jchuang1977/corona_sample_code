@@ -1,0 +1,4 @@
+local translations = {
+	
+}
+return translations
